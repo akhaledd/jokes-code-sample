@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  font-size: 14px;
+  font-family: $bodyFont;
+  font-weight: $fontWeightRegular;
+  color: $bodyColor;
+  background-color: $lightBackground;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $titleFont;
+  font-weight: $fontWeightBold;
+}
+
+b,
+strong {
+  font-weight: $fontWeightBold;
+}

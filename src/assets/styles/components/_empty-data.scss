@@ -1,0 +1,11 @@
+.empty-data {
+  padding: 30px;
+
+  &__message {
+    font-size: 26px;
+    color: $grayMedium;
+    font-weight: $fontWeightBold;
+    text-align: center;
+    margin: 0 auto;
+  }
+}

@@ -1,4 +1,16 @@
+// Main
 @import "variables";
 @import "global";
 @import "fonts";
 @import "buttons";
+
+// Pages
+@import "./pages/jokes-page";
+
+// Components
+@import "./components/jokes-list";
+@import "./components/jokes-list-item";
+@import "./components/loading-spinner";
+@import "./components/liked-jokes-toggle";
+@import "./components/toggle-input";
+@import "./components/empty-data";

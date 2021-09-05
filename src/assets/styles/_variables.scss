@@ -10,5 +10,14 @@ $titleFont: "Source Sans Pro", sans-serif;
 $bodyFont: $titleFont;
 
 // Colors
-$lightBackground: rgb(230, 236, 255);
+$white: #fff;
+$black: #000;
+$grayMedium: #aaa;
+$lightBackground: #f4f5f6;
 $bodyColor: rgb(34, 34, 34);
+$primaryColor: rgb(13, 158, 255);
+$successColor: rgb(57, 177, 117);
+$dangerColor: rgb(219, 76, 76);
+$toggleBorder: #ccc;
+$toggleBackground: #ddd;
+$toggleActiveBackground: $successColor;

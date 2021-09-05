@@ -1,0 +1,46 @@
+.jokes-list-item {
+  padding: 25px;
+  border-radius: 3px;
+  margin: 15px auto;
+  background-color: $white;
+  box-shadow: rgba($color: $black, $alpha: 0.1) 0 10px 15px;
+
+  &__setup {
+    font-size: 16px;
+    font-weight: $fontWeightBold;
+    margin-bottom: 0;
+  }
+
+  &__punchline {
+    font-size: 14px;
+  }
+
+  &__status {
+    .fa {
+      font-size: 16px;
+      transition: 0.3s;
+      padding: 3px;
+      cursor: pointer;
+
+      &:not(:last-child) {
+        margin-right: 7px;
+      }
+    }
+
+    .fa-thumbs-o-down {
+      transform: rotateY(180deg);
+
+      &.active,
+      &:hover {
+        color: $dangerColor;
+      }
+    }
+
+    .fa-thumbs-o-up {
+      &.active,
+      &:hover {
+        color: $successColor;
+      }
+    }
+  }
+}

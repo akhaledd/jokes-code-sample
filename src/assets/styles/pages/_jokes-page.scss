@@ -1,0 +1,15 @@
+.jokes-page {
+  padding: 60px 15px;
+  max-width: 800px;
+  margin: auto;
+
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    h1 {
+      font-size: 36px;
+    }
+  }
+}

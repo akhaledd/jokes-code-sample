@@ -1,11 +1,16 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import { Provider } from "react-redux";
+import JokesPage from "./pages/JokesPage";
+import store from "./store";
+
 import "./assets/styles/_index.scss";
-import JokesPage from "./pages/JokesPage/JokesPage";
 
 ReactDOM.render(
   <React.StrictMode>
-    <JokesPage />
+    <Provider store={store}>
+      <JokesPage />
+    </Provider>
   </React.StrictMode>,
   document.getElementById("root")
 );

@@ -1,0 +1,9 @@
+.liked-jokes-toggle {
+  display: flex;
+  align-items: center;
+
+  &__icon {
+    font-size: 18px;
+    padding-right: 10px;
+  }
+}
